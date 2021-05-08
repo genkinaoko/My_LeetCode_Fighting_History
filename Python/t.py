@@ -32,3 +32,10 @@ class Solution:
                 k += 1
         return k
 """
+"""
+class Solution: 
+    def findNumbers(self, nums: List[int]) -> int: 
+        check_list = [len(str(num)) for num in nums if len(str(num)) % 2 == 0]
+    return len(check_list)
+
+"""
